@@ -6,24 +6,30 @@ namespace StringCalc
 {
     public class StringCalculator
     {
-        public char[] delimiters = {',', '\n'};
-        public List<int> errorInts = new List<int>();
-        public bool isNegative;
+        private char[] delimiters = {',', '\n'};
+        private List<int> errorInts = new List<int>();
+        private bool isNegative;
+        private string delimiterStartIndicator = "//";
+        private int minimumLengthOfCustomDelimiterString = 3;
+        private int baseIndexOfString = 0;
+        private int lengthOfDelimiterString = 2;
+
         public int Add(string input)
         {
             int total = 0;
             foreach (var unit in input.Split(delimiters))
             {
                 int parsed;
-                if (input.Length > 3 && input.Substring(0,2).Equals("//"))
+                if (input.Length > minimumLengthOfCustomDelimiterString &&
+                    input.Substring(baseIndexOfString, lengthOfDelimiterString)
+                        .Equals(delimiterStartIndicator))
                 {
-                    delimiters = new[] {unit[unit.Length-1]};
+                    delimiters = new[] {unit[unit.Length - 1]};
                     return Add(input.Substring(unit.Length));
                 }
                 try
                 {
                     parsed = Int32.Parse(unit);
-
                 }
                 catch (FormatException e)
                 {
