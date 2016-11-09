@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalc", "StringCalc\StringCalc.csproj", "{2497E09C-FF0C-42B6-859F-66452876269F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalcTest", "StringCalcTest\StringCalcTest.csproj", "{A5510313-A454-40AF-A258-0084BB0AA624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{58AAF287-0172-40C6-B572-2F2E7F90D830}"
+	ProjectSection(SolutionItems) = preProject
+		Specifications.txt = Specifications.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2497E09C-FF0C-42B6-859F-66452876269F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2497E09C-FF0C-42B6-859F-66452876269F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2497E09C-FF0C-42B6-859F-66452876269F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2497E09C-FF0C-42B6-859F-66452876269F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5510313-A454-40AF-A258-0084BB0AA624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5510313-A454-40AF-A258-0084BB0AA624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5510313-A454-40AF-A258-0084BB0AA624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5510313-A454-40AF-A258-0084BB0AA624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
