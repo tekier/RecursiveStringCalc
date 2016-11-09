@@ -17,6 +17,7 @@ namespace StringCalcTest
             calculator = new StringCalculator();
         }
 
+        [TestCase("", 0)]
         [TestCase("1", 1)] //simple
         [TestCase("2", 2)] //simple
         [TestCase("1,2", 3)] //simple
