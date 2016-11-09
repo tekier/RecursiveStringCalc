@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalcTest", "StringCal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{58AAF287-0172-40C6-B572-2F2E7F90D830}"
 	ProjectSection(SolutionItems) = preProject
-		Specifications.txt = Specifications.txt
+		@PRAVEEN_READ_ME.txt = @PRAVEEN_READ_ME.txt
 	EndProjectSection
 EndProject
 Global
